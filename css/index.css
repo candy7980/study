@@ -1,0 +1,3614 @@
+﻿.divBoxWrap{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+.divBox{
+	max-width: 750px;
+	min-width: 320px;
+	height: auto;
+	margin: 0 auto;
+	background: #f5f5f5;
+	padding-bottom: 6.3em;
+}
+
+/*header*/
+.headerWrap{
+	width: 94%;
+	height: 2.7879em;
+	padding: 0 3%;
+	background: #f0f0f0;
+	position: relative;
+	font-size: 1.4102em;
+	line-height: 2.7879em;
+}
+/*logo*/
+.logo{
+	width: 4.7274em;
+	height: auto;
+	padding-top: 0.8em;
+	position: absolute;
+	left: 3%;
+	top: 0;
+}
+
+.logo img{
+	display: block;
+	width: 100%;
+}
+
+.headerR{
+	position: absolute;
+	right: 3%;
+	top: 0;
+	height: auto;
+	padding: 0.5em 0;
+}
+
+.headerR a{
+	float: left;
+	display: inline-block;
+	width: 1.8182em;
+	height: 1.8182em;
+	margin-left: 1.2121em;
+}
+
+.headerR a.telBtn{
+	background: url(../images/ico_btn1.png) no-repeat;
+	background-size: 100%;
+}
+
+.headerR a.topMnu{
+	background: url(../images/ico_btn2_hov.png) no-repeat;
+	background-size: 100%;
+}
+
+.headerR a.topMnu1{
+	background: url(../images/ico_btn2.png) no-repeat;
+	background-size: 100%;
+}
+
+
+/*banner*/
+.bannerWrap{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.bann {
+    height: auto;
+    position: relative;
+}
+
+.swiper-pagination{
+	position: absolute;
+	left: 0;
+	bottom:0.5em;
+	width: 100%;
+	height:auto;
+	z-index: 10;
+	text-align: center;
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 0.5982em;
+  height: 0.5982em;
+  border-radius:50px;
+  background: #e8e8e8;
+  margin: 0 0.5128em;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fe3c24;
+}
+.swiper-slide img{
+	display: block;
+	width: 100%;
+}
+/*分类导航*/
+.navWrap{
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+	padding: 1.282em 0;
+}
+
+.navWrap ul{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.navWrap ul li {
+    float: left;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+.navWrap ul li i{
+	display: inline-block;
+	height: auto;
+	width: 65%;
+}
+
+.navWrap ul li img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navWrap ul li h2{
+	width: 100%;
+	margin-top: 0.64em;
+	color: #3c3c3c;
+	font-size: 1.1965em;
+}
+
+/*头条*/
+.headlines{
+	width: 94%;
+	height: auto;
+	padding: 0 3%;
+	background: #fff;
+}
+
+.headlines .headlinesL{
+	width: 21%;
+	height: auto;
+	padding-top: 0.6em;
+}
+
+.headlines .headlinesL img{
+	display: block;
+	width:100%;
+}
+.txtScroll-top{
+	width: 78%;
+	margin:0 auto;  
+	height: auto; 
+	overflow:hidden; 
+	position:relative;
+	padding: 0.8333em 0; 
+}
+		
+.txtScroll-top .bd{ 
+	height: auto;	
+}
+
+.txtScroll-top .infoList li{
+	zoom:1;
+	font-size: 1.3em;
+	color: #3c3c3c;
+	line-height: 1.5em;
+}
+
+/*年级*/
+.myGrade{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+	padding: 1.4102em 0 0;
+}
+
+.myGrade .grade{
+	width: 100%;
+	height: auto;
+}
+
+.myGrade .grade li{
+	float: left;
+	width: 31%;
+	margin-right: 3.5%;
+	height: auto;
+}
+
+.myGrade .grade li:last-child{
+	margin-right: 0;
+}
+
+.myGrade .grade li a{
+	display: inline-block;
+	width: 100%;
+	padding-top: 1.1111em;
+}
+
+.myGrade .grade li a.gra1{
+	background: url(../images/bg-block-1.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.myGrade .grade li a.gra2{
+	background: url(../images/bg-block-2.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.myGrade .grade li a.gra3{
+	background: url(../images/bg-block-3.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.myGrade .grade li a h2{
+	width: 73%;
+	background: rgba(0,0,0,0.4);
+	border-top-right-radius: 50px;
+	-webkit-border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	font-size: 1.1965em;
+	color: #fff;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+.myGrade .grade li a p{
+	width: 88%;
+	margin: 1em auto;
+	color: #fefefe;
+	font-size: 1.0256em;
+	line-height: 1.7em;
+}
+
+.myGrade .grade1{
+	width: 100%;
+	height: auto;
+	margin-top: 1em;
+}
+
+.myGrade .grade1 li{
+	float: left;
+	width: 48%;
+}
+
+.myGrade .grade1 li:last-child{
+	float: right;
+}
+
+.myGrade .grade1 li a{
+	display: block;
+	width: 100%;
+	padding: 1.1111em 0;
+}
+
+.myGrade .grade1 li a.gra1{
+	background: url(../images/bg-block-4.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.myGrade .grade1 li a.gra2{
+	background: url(../images/bg-block-5.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.myGrade .grade1 li a h2{
+	width: 93%;
+	margin: 0 auto;
+	font-size: 1.5611em;
+	color: #fefefe;
+}
+
+.myGrade .grade1 li a p{
+	width: 93%;
+	margin: 1.0265em auto 0.45em;
+	font-size: 1.1111em;
+	color: #fefefe;
+}
+
+/*留学目的地*/
+.abroad{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+.abroad .abroadTitle{
+	width: 94%;
+	height: auto;
+	padding: 0.8547em 3%;
+	border-bottom: 1px solid #f5f5f5;
+	margin-top: 1.282em;
+}
+
+.abroad .abroadTitle1{
+	margin-top: 0;
+}
+
+.abroad .abroadTitle .abroadTL{
+	width: 70%;
+	color: #3f3f3f;
+}
+
+.abroad .abroadTitle .abroadTL i{
+	display: inline-block;
+	float: left;
+	width: 1.8803em;
+	height: 1.7094em;
+}
+
+.abroad .abroadTitle .abroadTL i img{
+	display: block;
+	width: 100%;
+}
+
+.abroad .abroadTitle .abroadTL em{
+	float: left;
+	display: inline-block;
+	font-size: 1.4102em;
+	line-height: 1.212em;
+	margin-left: 0.4em;
+}
+
+.abroad .abroadTitle .abroadTR{
+	height: auto;
+	text-align: right;
+}
+
+.abroad .abroadTitle .abroadTR a{
+	display: inline-block;
+	padding-left: 1.7094em;
+	background: url(../images/ico_btn9.png) 0 center no-repeat;
+	background-size: 22%;
+	font-size: 1.1111em;
+	color: #fe4d37;
+	line-height: 1.5385em;
+}
+
+.abroad .abroadBom{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.abroad .abroadBom .abroadBomSide{
+	height: auto;
+	position: relative;
+	padding-bottom: 2.56em;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide{
+	width: 94%;
+	height: auto;
+	padding: 0 3%;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide ul{
+	width: 100%;
+	height: auto;
+	padding-top: 0.5982em;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide ul li{
+	float: left;
+	width: 19%;
+	margin-top: 1.1965em;
+	margin-right: 8%;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide ul li:nth-child(4n){
+	margin-right: 0;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide ul li img{
+	display: block;
+	width: 100%;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-wrapper1 .swiper-slide ul li h2{
+	width: 100%;
+	font-size: 1.1956em;
+	color: #3c3c3c;
+	text-align: center;
+	padding: 0.5128em 0;
+}
+
+.abroad .abroadBom .abroadBomSide .swiper-pagination2{
+	bottom: 1.282em;
+	text-align: center;
+}
+
+/*热门留学院校*/
+.colleges{
+	margin-top: 1.282em;
+	padding-bottom: 1.282em;
+}
+.colleges1{
+	padding-bottom:0.5em;
+	margin-bottom: 1.282em;
+}
+.tabcoll{
+	padding-bottom: 0;
+}
+.colleges .tab {
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+.colleges .tab .tab_ul{
+	width: 100%;
+	height: auto;
+	/*border-bottom: 1px solid #d0d0d0;*/
+}
+
+.colleges .tab h1{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #d0d0d0;
+	position: absolute;
+	top: 3.65em;
+	left: 0;
+}
+.colleges .tab .tab_div{
+	float: left;
+	width: 18%;
+	height: 2.8em;
+	line-height: 2.8em;
+	margin-right: 2%;
+	color: #828282;
+	font-size: 1.282em;
+	text-align: center;
+}
+
+.colleges .tab .selectedl{
+	color: #fe3d25;
+	border-bottom: 2px solid #fe3d25;
+}
+.colleges .tab .tab_box {
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.colleges .hide {
+	display: none;
+}
+
+.colleges .tab_box>div {
+	width: 100%;
+	height: auto;
+} 
+
+
+.colleges .news-list{
+	width: 94%;
+	height: auto;
+	padding: 0.5982em 3% 0;
+}
+
+.colleges .news-list li,
+.entrance ul li{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #efefef;
+	padding: 1.0256em 0 1.282em;
+}
+
+.colleges .news-list li a,
+.entrance ul li a{
+	display: inline-block;
+	width: 100%;
+	background: url(../images/ico_btn10.png) right center no-repeat;
+	background-size: 2.9%;
+}
+
+.colleges .news-list li h2,
+.entrance ul li h2{
+	width: 100%;
+	height: auto;
+}
+
+.colleges .news-list li h2 em.hot,
+.entrance ul li h2 em.hot{
+	display: block;
+	width: 1.4em;
+	height: 1.3845em;
+	float: left;
+	background: #fe3c24;
+	font-size: 1.1111em;
+	color: #fff;
+	border-radius: 0.2em;
+	line-height: 1.3845em;
+	text-align: center;
+}
+
+.colleges .news-list li h2 em.hot1,
+.entrance ul li h2 em.hot1{
+	background: #ff8b20;
+}
+
+.colleges .news-list li h2 span,
+.entrance ul li h2 span{
+	display: inline-block;
+	float: left;
+	height: 1.125em;
+	margin-left: 0.3em;
+	font-size: 1.3675em;
+	color: #2a2a2a;
+	line-height: 1.125em;
+}
+
+.colleges .news-list li h2 b.listB{
+	display: inline-block;
+	float: left;
+	margin-left: 0.3em;
+	font-weight: normal;
+	color: #23cd77;
+	font-size: 1.1111em;
+	border: 1px solid #23cd77;
+	border-radius: 0.2em;
+	padding: 0 0.4em;
+	height: 1.308em;
+	line-height: 1.308em;
+}
+
+.colleges .news-list li h2 b.listB1{
+	border: 1px solid #fe3c24;
+	color: #fe3c24;
+}
+
+
+.colleges .news-list li h3{
+	width: 90%;
+	padding-right: 10%;
+	margin-top: 0.9401em;
+	font-size: 1.0256em;
+	/*height: 1.2em;*/
+	color: #c1c1c1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.colleges .showMore {
+	clear: both;
+	padding: 15px;
+	width: 94%;
+	margin: 1em auto 0;
+	
+}
+
+.colleges .showMore span {
+	display: block;
+	line-height: 2.4em;
+	font-size: 1.282em;
+	color: #6d6d6d;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*智能选校*/
+.smart{
+	width: 100%;
+	height: auto;
+	padding: 1.282em 0;
+}
+
+.smart dl{
+	width: 100%;
+	height: auto;
+}
+
+.smart dl dd{
+	float: left;
+	width: 50%;
+	height: 6.1965em;
+}
+
+.smart dl dd.smartDd{
+	background: url(../images/back_btn1.png) no-repeat;
+	background-size: 100%;
+}
+
+.smart dl dd.smartDd1{
+	background: url(../images/back_btn2.png) no-repeat;
+	background-size: 100%;
+}
+
+.smart dl dd.smartDd a{
+	background: url(../images/ico_btn11.png) 10% center no-repeat;
+	background-size: 20%;
+}
+
+.smart dl dd.smartDd1 a{
+	background: url(../images/ico_btn12.png) 10% center no-repeat;
+	background-size: 20%;
+}
+
+.smart dl dd a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.smart dl dd a h2{
+	padding-top: 1.0256em;
+	padding-left: 32%;
+	font-size: 1.538em;
+	color: #fff;
+}
+
+.smart dl dd a p{
+	padding-left:32%;
+	margin-top: 0.9401em;
+	font-size: 1.1111em;
+	color: #fff;
+}
+
+/*优选留学方案*/
+.plan{
+	width: 100%;
+	height: auto;
+}
+
+.plan .planTitle{
+	width: 94%;
+	height: auto;
+	padding: 1.282em 3%;
+	background: #fff;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.plan .planTitle .planL{
+	width: 70%;
+	height: auto;
+}
+
+.plan .planTitle .planL i{
+	display: inline-block;
+	float: left;
+	width: 1.8803em;
+	height: 1.7094em;
+}
+
+.plan .planTitle .planL i img{
+	display: block;
+	width: 100%;
+}
+
+.plan .planTitle .planL em{
+	float: left;
+	font-size: 1.3675em;
+	color: #3f3f3f;
+	line-height: 1.25em;
+	margin-left: 0.4em;
+}
+
+.plan .planTitle .planR{
+	width: 0.8547em;
+	height: 1.538em;
+	background: url(../images/ico_btn10.png) right center no-repeat;
+	background-size: 100%;
+	-moz-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.plan .planTitle .planR1{
+	transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-moz-transition: all 0.2s ease-in 0s;
+	-webkit-transition: all 0.2s ease-in 0s;
+	-o-transition: all 0.2s ease-in 0s;
+	transition: all 0.2s ease-in 0s;
+}
+
+.plan .planLayer{
+	width: 100%;
+	height: auto;
+	background: #fcfcfc;
+	display: none;
+}
+
+
+.plan .planLayer ul{
+	width: 100%;
+	height: auto;
+}
+
+.plan .planLayer ul li{
+	float: left;
+	width: 94%;
+	height: auto;
+	padding: 1.1111em 3%;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.plan .planLayer ul li:last-child{
+	border-bottom: none;
+}
+
+.plan .planLayer ul li h2{
+	float: left;
+	width: 49%;
+	height: auto;
+}
+
+.plan .planLayer ul li h2:last-child{
+	float: right;
+}
+
+.plan .planLayer ul li h2 em{
+	float: left;
+	display: inline-block;
+	width: 11%;
+}
+
+.plan .planLayer ul li h2 em img{
+	display: block;
+	width: 100%;
+}
+
+.plan .planLayer ul li h2 span{
+	width: 87%;
+	float: right;
+	display: inline-block;
+	height: 1.393em;
+	font-size: 1.1965em;
+	color: #4a4a4a;
+	line-height: 1.393em;
+}
+
+/*高考留学&高中生留学必看*/
+.entrance{
+	padding-bottom: 1.7094em;
+}
+
+.entrance ul{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.entrance ul li{
+	padding: 0;
+}
+
+.entrance ul li h2{
+	padding: 1.2em 0;
+}
+
+.entrance ul li h2 span{
+	font-size: 1.282em;
+}
+
+.entrance h1{
+	width: 54%;
+	height: auto;
+	margin: 1.3em auto 0;
+	border: 1px solid #ff7a00;
+	font-size: 1.282em;
+	color: #ff7a00;
+	text-align: center;
+	line-height: 2.34em;
+}
+
+/*留学精彩专题*/
+.project{
+	margin-top: 1.282em;
+}
+
+.project .proMain{
+	width: 100%;
+	height: auto;
+}
+
+.project .proMain ul{
+	width: 96%;
+	height: auto;
+	margin: 1.111em 2% 0;
+	padding-bottom: 1.282em;
+}
+
+.project .proMain ul li{
+	width: 100%;
+	float: left;
+}
+
+.project .proMain ul li .proMliL{
+	width: 40.28%;
+	height: auto;
+	position: relative;
+}
+
+.project .proMain ul li .proMliL img{
+	display: block;
+	width: 100%;
+}
+
+.project .proMain ul li .proMliL p,
+.project .proMain ul li .proMliR .proMliRT p,
+.project .proMain ul li .proMliR .proMliRB .proRBL p,
+.project .proMain ul li .proUl p{
+	position: absolute;
+	top: 1.666em;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.538em;
+	color: #fff;
+}
+
+.project .proMain ul li .proMliR{
+	width: 57.5%;
+	height: auto;
+}
+
+.project .proMain ul li .proMliR .proMliRT{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.project .proMain ul li .proMliR .proMliRT img{
+	display: block;
+	width: 100%;
+}
+
+.project .proMain ul li .proMliR .proMliRT p{
+	top: 1.4em;
+	width: 96%;
+	text-align: right;
+}
+
+.project .proMain ul li .proMliR .proMliRB{
+	width: 100%;
+	height: auto;
+	margin-top: 0.7em;
+}
+
+.project .proMain ul li .proMliR .proMliRB .proRBL{
+	width: 47.585%;
+	height: auto;
+	position: relative;
+}
+
+.project .proMain ul li .proMliR .proMliRB .proRBL img{
+	display: block;
+	width: 100%;
+}
+
+.project .proMain ul li .proMliR .proMliRB .proRBL p{
+	top: 1.2em;
+	line-height: 1.2em;
+	font-size: 1.282em;
+}
+
+.project .proMain ul li .proMliR .proMliRB .proRBR p{
+	width: 92%;
+	text-align: right;
+}
+
+.project .proMain ul li .proUl{
+	width: 48.75%;
+	position: relative;
+	height: auto;
+	margin-top: 0.7em;
+}
+
+.project .proMain ul li .proUl img{
+	display: block;
+	width: 100%;
+}
+
+/*留学无忧 人人都是名校生*/
+.easy{
+	width: 100%;
+	height: auto;
+	margin-top: 1.282em;
+	background: #fff;
+}
+
+.easy h2{
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
+	font-size: 1.7094em;
+	color: #646464;
+	line-height: 2.75em;
+	text-align: center;
+}
+
+.easy ul{
+	width: 90%;
+	height: auto;
+	margin: 0 auto ;
+	padding-bottom: 2.1367em;
+}
+
+.easy ul li{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 2.1367em;
+}
+
+.easy ul li .easyL{
+	width: 27.56%;
+	height: auto;
+}
+
+.easy ul li .easyL img{
+	display: block;
+	width: 100%;
+}
+
+.easy ul li .easyR{
+	width: 68%;
+	height: auto;
+}
+
+.easy ul li .easyR h3{
+	width: 100%;
+	font-size: 1.7094em;
+	color: #fe3c24;
+	line-height: 1.2em;
+}
+
+.easy ul li .easyR p{
+	font-size: 1.1111em;
+	color: #8b8b8b;
+	line-height: 1.7em;
+}
+
+/*底部菜单*/
+.footerMenu{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.footerM{
+	max-width: 750px;
+	min-width: 320px;
+	margin: 0 auto;
+	height: auto;
+	background: #fff;
+	border-top: 1px solid #efefef;
+	padding-top: 0.5em;
+}
+
+.footerM ul{
+	width: 100%;
+	height: auto;
+}
+
+.footerM ul li{
+	width: 25%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.footerM ul li i{
+	display: inline-block;
+	width: 2.1367em;
+	height: 2.094em;
+	position: relative;
+}
+
+.footerM ul li i.ico{
+	background: url(../images/ico-b-nav-1.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li i.ico1{
+	background: url(../images/ico-b-nav-2.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li i.ico2{
+	background: url(../images/ico-b-nav-3.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li i.ico3{
+	background: url(../images/ico-b-nav-4.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li.cur i.ico{
+	background: url(../images/ico-b-nav-1-on.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li.cur i.ico1{
+	background: url(../images/ico-b-nav-2-on.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li.cur i.ico2{
+	background: url(../images/ico-b-nav-3-on.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li.cur i.ico3{
+	background: url(../images/ico-b-nav-4-on.png) no-repeat;
+	background-size: 100%;
+}
+
+.footerM ul li.cur p{
+	color: #fe3c24;
+}
+
+.footerM ul li i em{
+	display: inline-block;
+	position: absolute;
+	top: -0.5em;
+	right: -0.8em;
+	font-size: 0.641em;
+	color: #fff;
+	width: 1.867em;
+	height: 1.867em;
+	line-height: 1.867em;
+	background: #fe3c24;
+	border-radius: 50px;
+}
+
+.footerM ul li p{
+	font-size: 0.9401em;
+	color: #919191;
+	margin: 0.7em 0;
+}
+
+/*动画按钮*/
+.animation{
+	width: auto;
+	height: auto;
+	position: fixed;
+	bottom: 3.9em;
+	left: 0.8%;
+	z-index: 100;
+}
+
+.animation .PathMain{
+	float: left;
+	width: 4.53em;
+	height: 4.658em;
+	background: url(../images/ico_btn22.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+	z-index: 100;
+}
+
+.animation .PathMain1{
+	background: url(../images/ico_btn23.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem{
+	float: left;
+	width: 3.2905em;
+	height: 3.2905em;
+	position: absolute;
+	left: 0.6em;
+	top: 0.7em;
+	z-index: 10;
+}
+
+.animation .PathItem a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.animation .PathItem a.link1{
+	background: url(../images/ico-zw-1.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link2{
+	background: url(../images/ico-zw-2.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link3{
+	background: url(../images/ico-zw-3.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link4{
+	background: url(../images/ico-zw-4.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link5{
+	background: url(../images/ico-zw-5.png) no-repeat;
+	background-size: 100%;
+}
+
+/*弹出层*/
+.Pop_up{
+	width: 5em;
+	height: auto;
+	position: fixed;
+	right: 0;
+	bottom: 4em;
+	z-index: 200;
+}
+
+.Pop_up img{
+	display: block;
+	width: 100%;
+}
+
+#TB_overlayBG{
+	position:absolute;
+	z-index:101;
+	left:0;
+	top:0;
+	display:none;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa000000',endColorstr='#aa000000');      /*IE6,IE7*/ 
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa000000', endColorstr='#aa000000')";      /*IE8*/ 
+}
+
+.PopLayer{
+	width: 26.4102em;
+	height: 21.0256em;
+	background: url(../images/back_btn3.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -13.2051em;
+	z-index: 3000;
+	display: none;
+}
+
+.PopLayer a{
+	display: block;
+	position: relative;
+	width: 80%;
+	height: 1.695em;
+	font-size: 1.538em;
+	color: #262626;
+	line-height: 1.695em;
+	background: #ffed74;
+	border-radius: 0.5em;
+	text-align: center;
+	margin: 6.47em auto 0;
+}
+
+.PopLayer a em{
+	position: absolute;
+	right: -0.9725em;
+	top: -0.9725em;
+	display: inline-block;
+	width: 1.945em;
+	height: 1.945em;
+	line-height: 1.945em;
+	border-radius: 50px;
+	background: #f53429;
+	border: 1px solid #fff;
+	font-size: 0.4em;
+	color: #fff;
+	text-align: center;
+}
+
+.PopLayer .popM{
+	width: 80%;
+	height: auto;
+	margin: 1.5em auto 0;
+}
+
+.PopLayer .popM #test{
+	width: 56%;
+	padding: 0.45em 1% 0.45em 2%;
+	background: #fff;
+	font-size: 1.1965em;
+	color: #c4c4c4;
+	border-radius: 0.5em;
+	float: left;
+}
+
+.PopLayer .popM .popBut{
+	width: 35%;
+	float: right;
+	font-size: 1.452em;
+	color: #fff;
+	border-radius: 0.5em;
+	background: #fe3c24;
+	padding: 0.2499em 0;
+}
+
+.PopLayer .popclose,
+.webchat .popclose{
+	position: absolute;
+	top: -1.1538em;
+	right: -1.1538em;
+	width: 2.3076em;
+	height: 2.3076em;
+	background: url(../images/ico_btn25.png) no-repeat;
+	background-size: 100%;
+}
+
+/*微信弹出*/
+.webchat{
+	position: absolute;
+	top: 0;
+	width: 80%;
+	height: auto;
+	z-index: 120;
+	display: none;
+}
+.webchat img{
+	display: block;
+	width: 100%;
+}
+
+/*侧边导航*/
+.sideMenu {
+	position: fixed;
+	top: 0;
+	right: -34%;
+	width: 34%;
+	height: 100%;
+	background: #242e30;
+	z-index: 201;
+}
+
+.sideMenu h3 {
+	width: 100%;
+	font-size: 1.282em;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	text-align: center;
+	height: 2em;
+	line-height: 2em;
+}
+
+.sideMenu h3 em {
+	float: right;
+	display: block;
+	width: 40px;
+	height: 32px;
+	background: url(../images/icoadd.png) 16px 12px no-repeat;
+}
+
+.sideMenu h3.on em {
+	background-position: 16px -57px;
+}
+
+.sideMenuul {
+	padding: 8px 25px;
+	color: #999;
+	display: none;
+}
+
+.sideMenu ul{
+	width: 100%;
+	display: none;
+	background: #161c1d;
+	padding: 0.5em 0 0.7em;
+}
+
+.sideMenu ul li{
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+	font-size: 1.1965em;
+}
+
+.sideMenu ul li a{
+	display: block;
+	color: #fff;
+}
+
+/*国家页面-大学排名*/
+.navWrap1{
+	padding: 0;
+}
+
+.navWrap1 ul li{
+	width: 25%;
+	margin-top: 1.282em;
+	margin-right: 0;
+	text-align: center;
+}
+
+.navWrap1 ul li i{
+	display: inline-block;
+	width: 57%;
+	height: auto;
+}
+
+.navWrap1 ul li h2{
+	font-size: 1.0256em;
+}
+
+/*留学美国的理由*/
+.abroad .taba,
+.abroad .tabb {
+	width:100%;
+}
+
+.abroad .taba .tab_menua,
+.abroad .tabb .tab_menub {
+	width: 100%;
+	z-index: 1;
+}
+
+.abroad .taba .tab_menua li,
+.abroad .tabb .tab_menub li{
+	float: left;
+	width: 50%;
+	height: 2.9665em;
+	text-align: center;
+	font-size: 1.282em;
+	color: #828282;
+	line-height: 2.9665em;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.abroad .taba .tab_boxa {
+	width: 100%;
+	height: auto;
+	clear: both;
+	background-color: #FF0;
+}
+
+.abroad .taba .tab_menua .selecteda,
+.abroad .tabb .tab_menub .selectedb {
+	border-bottom: 2px solid #fe3c24;
+	height: 2.9332em;
+	line-height: 2.9665em;
+	color: #fe3c24;
+}
+
+.abroad .hidea {
+	display: none;
+}
+
+.abroad .tab_boxa>div {
+	width: 94%;
+	padding: 0.8em 3% 1.282em;
+	background: #f5f5f5;
+}
+.abroad .tab_boxd > div {
+    padding: 0.8em 3% 0;
+}
+.abroad .tab_boxa>div.hidea1{
+	width: 100%;
+	padding: 0.8em 0 1.282em;
+	background: #fff;
+}
+.abroad .tab_boxa>div.hidea1 ul{
+	border: none;
+	margin: 0 2%;
+	padding: 0;
+}
+.abroad .tab_boxa>div.hidea1 ul li{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.abroad .tab_boxa div ul,
+.plan .planLayer1 ul{
+	background: #fff;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+}
+
+.abroad .tab_boxa div ul li,
+.plan .planLayer1 ul li{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 1.0256em 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.abroad .tab_boxa div ul li .tabUlL,
+.plan .planLayer1 ul li .tabUlL{
+	width: 27.5%;
+	height: 2.5641em;
+	border-bottom-right-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	position: relative;
+}
+
+.abroad .tab_boxa div ul li .tabUlL em,
+.plan .planLayer1 ul li .tabUlL em{
+	position: absolute;
+	right: -0.47em;
+	top: 50%;
+	margin-top: -0.2991em;
+	width: 0.47em;
+	height: 0.5982em;
+}
+
+.abroad .tab_boxa div ul li .tabUlL em img,
+.plan .planLayer1 ul .tabUlL em img{
+	display: block;
+	width: 100%;
+}
+
+.abroad .tab_boxa div ul li .tabUlL p,
+.plan .planLayer1 ul li .tabUlL p{
+	width: 94%;
+	padding: 0 2% 0 4%;
+	font-size: 1.0256em;
+	color: #fff;
+	line-height: 2.4em;
+}
+
+.abroad .tab_boxa div ul li .ico1,
+.plan .planLayer1 ul li .ico1{
+	background: #37d588;
+}
+
+.abroad .tab_boxa div ul li .ico2,
+.plan .planLayer1 ul li .ico2{
+	background: #7ed537;
+}
+
+.abroad .tab_boxa div ul li .ico3,
+.plan .planLayer1 ul li .ico3{
+	background: #d5a737;
+}
+
+.abroad .tab_boxa div ul li .ico4,
+.plan .planLayer1 ul li .ico4{
+	background: #d53737;
+}
+
+.abroad .tab_boxa div ul li .ico5,
+.plan .planLayer1 ul li .ico5{
+	background: #9037d5;
+}
+
+.abroad .tab_boxa div ul li .tabUlR,
+.plan .planLayer1 ul li .tabUlR{
+	width: 69%;
+	height: auto;
+}
+
+.abroad .tab_boxa div ul li .tabUlR p,
+.plan .planLayer1 ul li .tabUlR p{
+	width: 95%;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height: 1.2em;
+}
+
+/*免费在线咨询专家*/
+.onLine {
+    width: 100%;
+    height: auto;
+    margin: 0 0 1.282em;
+    background: #fff;
+}
+.onLine1{
+	margin: 1.282em 0;
+}
+.onLine .onLineL{
+	width: 50%;
+	height: auto;
+}
+
+.onLine .onLineL .onLineLM{
+	border-right: 1px solid #eaeaea;
+	padding: 0.94em 0;
+}
+.onLine .onLineL .onLineLM a{
+	display: block;
+}
+.onLine .onLineL .onLineLM1{
+	border-right: none;
+}
+
+.onLine .onLineL .lineML{
+	width: 18.8%;
+	height: auto;
+	margin-left: 8%;
+}
+
+.onLine .onLineL .lineML img{
+	display: block;
+	width: 100%;
+}
+
+.onLine .onLineL .lineMR{
+	width: 62%;
+	margin-right: 8%;
+}
+
+.onLine .onLineL .lineMR h2{
+	font-size: 1.1965em;
+	color: #ff8b20;
+	line-height: 1.5em;
+}
+
+.onLine .onLineL .lineMR p{
+	color: #646464;
+	font-size: 0.6837em;
+}
+
+.onLine .onLineL .onLineLM1 .lineMR  h2{
+	color: #49b9f8;
+}
+
+.abroad .tabb {
+	width: 100%;
+}
+
+.abroad .tabb .tab_menub {
+	width: 100%;
+	z-index: 1;
+}
+
+.abroad .tabb .tab_menub li {
+	width: 33.3333%;
+}
+
+.abroad .tabb .tab_boxb {
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.abroad .hideb {
+	display: none;
+}
+
+.abroad .tab_boxb>div {
+	width: 94%;
+	padding: 0.8em 3% 1.282em;
+	background: #f5f5f5;
+} 
+
+.abroad .tab_boxb>div h2.tabbH2{
+	font-size: 1.1965em;
+	color: #646464;
+	line-height: 1.4em;
+}
+
+.abroad .tab_boxb>div p.tabbP{
+	padding: 0.8em 3%;
+	border: 1px solid #ebebeb;
+	background: #fff;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height: 1.6em;
+	margin-top: 0.5em;
+}
+
+.abroad .tab_boxb>div p a{
+	color: #49b9f8;
+}
+
+/*美国留学最具优势院校*/
+.plan .planLayer ul li h2 b{
+	display: inline-block;
+	float: left;
+	margin-left: 0.3em;
+	font-weight: normal;
+	color: #23cd77;
+	font-size: 1.1111em;
+	border: 1px solid #23cd77;
+	border-radius: 0.2em;
+	padding: 0 0.4em;
+	height: 1.4228em;
+	line-height: 1.4228em;
+	font-weight: normal;
+}
+
+/*申请条件*/
+.abroad #tabc{
+	margin-top: 1.282em;
+	padding-top: 0.8em;
+}
+
+.abroad .tabb .tab_menuc{
+	width: 96%;
+	margin: 0 auto 0.8em;
+	border: 1px solid #d0d0d0;
+	border-radius: 0.5em;
+	overflow: hidden;
+}
+
+.abroad .tabb .tab_menuc li{
+	width: 33%;
+	border-bottom: none;
+	line-height: 2em;
+	height: 2em;
+}
+
+.abroad .tabb .tab_menuc li:last-child{
+	width: 34%;
+}
+
+.abroad .tabb .tab_menub .selectedc{
+	background: #fe3c24;
+	color: #fff;
+}
+
+.abroad .tab_boxc > div.tabcDiv{
+	width: 100%;
+	padding: 0.8em 0 0;
+}
+
+.abroad .tab_boxc > div.tabcDiv .tabDivW{
+	width: 94%;
+	padding: 0 3%;
+}
+
+
+.abroad .tab_boxc > div table{
+	width: 100%;
+	background: #fff;
+}
+
+.abroad .tab_boxc > div table tr.tableTr{
+	border: none;
+}
+
+.abroad .tab_boxc > div table tr{
+	border: 1px solid #eaeaea;
+}
+
+.abroad .tab_boxc > div table tr th{
+	background: #f5f5f5;
+	color: #646464;
+	font-size: 1.1965em;
+	font-weight: normal;
+	height:2.393em;
+	line-height: 2.393em;
+}
+
+.abroad .tab_boxc > div table tr th h3{
+	text-align: left;
+}
+
+.abroad .tab_boxc > div table tr td{
+	font-size: 1.0256em;
+	color: #646464;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+}
+
+.abroad .tab_boxc > div table tr td h3{
+	color: #49b9f8;
+}
+
+.abroad .tab_boxc > div table tr td h4{
+	text-align: left;
+}
+
+/*资讯申请攻略*/
+.consu{
+	width: 94%;
+	height: auto;
+	padding: 1.282em 3%;
+	background: #fff;
+	margin-top: 1.282em;
+}
+
+.consu .consuBut{
+	width: 42%;
+	font-size: 1.282em;
+	color: #ff7a00;
+	border: 1px solid #ff7a00;
+	background: #fff;
+	height: 2.4em;
+}
+
+.consu .consuBut1{
+	width: 55%;
+	background: #ff7a00;
+	color: #fff;
+}
+
+
+
+/*留学美国的理由*/
+.abroad #tabd{
+	margin-top: 1.282em;
+}
+
+.reason{
+	height: auto;
+	border: 1px solid #eaeaea;
+	background: #fff;
+}
+
+.reason ol{
+	width: 96.5%;
+	height: auto;
+	margin-left: 3.5%;
+	border-left: 0.1em solid #dcdcdc;
+}
+
+.reason ol li{
+	width: 96%;
+	margin-left: 4%;
+	border-bottom:1px solid #eaeaea ;
+	padding: 1.0256em 0;
+}
+
+.reason ol li:last-child{
+	border-bottom: none;
+}
+
+.reason ol li h2{
+	position: relative;
+	font-size: 1.1965em;
+	color: #fe3d25;
+	line-height: 1.357em;
+}
+
+.reason ol li em{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -1.54em;
+	width: 1em;
+	height: 1.3569em;
+	
+}
+.reason ol li em img{
+	display: block;
+	width: 100%;
+}
+
+.reason ol li p{
+	font-size: 0.8547em;
+	color: #646464;
+	line-height: 1.4em;
+	margin-top: 0.3em;
+}
+
+.reasonAsk{
+	border: 1px solid #eaeaea;
+	border-top: none;
+	background: #fff;
+	text-align: center;
+	padding: 1.282em 0;
+}
+
+.reasonAsk input{
+	width: 43%;
+	border: 1px solid #ff7a00;
+	font-size: 1.282em;
+	color: #ff7a00;
+	background: #fff;
+	height: 2.4em;
+}
+
+/*留美费用*/
+.abroad .tab_boxc ul{
+	width: 96%;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+}
+.abroad .tab_boxc ul li{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 1.0256em 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.abroad .tab_boxc ul li .tabUlL{
+	width: 27.5%;
+	height: 2.5641em;
+	border-bottom-right-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	position: relative;
+}
+.abroad .tab_boxc ul li .tabUlL em{
+	position: absolute;
+	right: -0.47em;
+	top: 50%;
+	margin-top: -0.2991em;
+	width: 0.47em;
+	height: 0.5982em;
+}
+.abroad .tab_boxc ul li .tabUlL em img{
+	display: block;
+	width: 100%;
+}
+.abroad .tab_boxc ul li .tabUlL p{
+	width: 94%;
+	padding: 0 2% 0 4%;
+	font-size: 1.0256em;
+	color: #fff;
+	line-height: 2.4em;
+}
+.abroad .tab_boxc ul li .tabUlL p img{
+	position: relative;
+	top: 0.45em;
+	margin-right: 0.25em;
+	width: 22%;
+}
+.abroad .tab_boxc ul li .ico1{
+	background: #37d588;
+}
+.abroad .tab_boxc ul li .ico2{
+	background: #7ed537;
+}
+.abroad .tab_boxc ul li .ico3{
+	background: #d5a737;
+}
+.abroad .tab_boxc ul li .ico4{
+	background: #d53737;
+}
+.abroad .tab_boxc ul li .tabUlR{
+	width: 69%;
+	height: auto;
+}
+.abroad .tab_boxc ul li .tabUlR p{
+	width: 95%;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height:2.4em;
+}
+
+/*专题页*/
+.introdu{
+	width: 94%;
+	padding: 2em 3% 1.282em;
+	background: #fff;
+	height: auto;
+	margin-top: 1.282em;
+}
+
+.introdu p{
+	padding: 0 3% 1em;
+	border:1px solid #e4e4e4;
+	background: #f9f9f9;
+	border-radius: 0.2em;
+	color: #464646;
+	font-size: 1.1965em;
+	line-height:1.8em;
+}
+
+.introdu p em{
+	margin-top: -0.7em;
+	margin-left: 5%;
+	display: block;
+	font-size: 1.282em;
+	color: #fff;
+	width: 4.2em;
+	height: 1.4em;
+	line-height: 1.4em;
+	text-align: center;
+	background: #fd6755;
+	border-radius: 0.3em;
+	margin-bottom: 0.4em;
+}
+
+/*招生对象*/
+.admiss{
+	width: 94%;
+	height: auto;
+	padding: 0 3%;
+	background: #fff;
+	margin-bottom: 1.282em;
+}
+.admiss ul{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.admiss ul li{
+	float: left;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eaeaea;
+	padding: 1.282em 0;
+}
+.admiss ul li .admissL{
+	width: 8.6%;
+	height: auto;
+}
+.admiss ul li .admissL img{
+	display: block;
+	width: 100%;
+}
+.admiss ul li .admissR{
+	width: 88%;
+}
+.admiss ul li .admissR h2{
+	color: #37d588;
+	font-size: 1.3675em;
+}
+.admiss ul li .admissR1 h2{
+	color: #d53737;
+}
+.admiss ul li .admissR2 h2{
+	color: #ecb52f;
+}
+.admiss ul li .admissR3 h2{
+	color: #9037d5;
+}
+.admiss ul li .admissR p{
+	font-size: 1.0256em;
+	color: #646464;
+	margin-top: 0.2em;
+}
+/*美国留学最具优势院校*/
+.plan .planLayer1{
+	width: 96%;
+	padding: 1em 2% 0;
+	height: auto;
+	background: #f5f5f5;
+	display: none;
+}
+.plan .planLayer1 ul li .tabUlR p{
+	width: 98%;
+}
+/*高中生留学方案*/
+.abroad .proTab .tab_menub li{
+	width: 25%;
+}
+.abroad .pro_boxb > div{
+	width: 100%;
+	padding: 0.8em 0 1.282em;
+}
+.abroad .pro_boxb > div .proTDIv{
+	width: 94%;
+	padding: 0 3%;
+}
+/*名校留学预科5大优势*/
+.plan #planL1 ul li .tabUlL{
+	width: 20.5%;
+	text-align: center;
+}
+.plan #planL1 ul li .tabUlL p{
+	padding: 0;
+}
+.plan #planL1 ul li .tabUlR{
+	width: 76%;
+}
+/*录取测试*/
+.banner{
+	width: 100%;
+	height: 8.52878em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*main*/
+.mainWrap{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	background:#fff url(../images/main_top_jt.png) no-repeat center top;
+	background-size: 5%;
+}
+.maintop{
+	width: 96%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.maintop h2{
+	display: block;
+	margin: 0.8em auto 0;
+	font-size: 1.5351em;
+	color: #fff;
+	background: #00a8e1;
+	width:70%;
+	height: 2.2415em;
+	line-height: 2.2415em;
+	text-align: center;
+	border-radius: 0.2em;
+}
+.maintop1 h2 {
+    margin: 0.8em auto 0;
+}
+.maintop p{
+	width:70%;
+	margin: 1.0646em auto 0;
+	font-size: 1.02em;
+	color: #646464;
+	line-height: 1.22em;
+}
+.maintop p em{
+	color: #f10000;
+}
+.maintop span{
+	display: block;
+	margin: 0.85em auto 0;
+	width:70%;
+	font-size: 1.1087em;
+	color: #f10000;
+}
+.maintop ul{
+	width: 100%;
+	margin: 1.282em auto 0;
+	border-top: 1px solid #eaeaea;
+}
+.maintop ul li{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #EAEAEA;
+	overflow: hidden;
+}
+.maintop ul li label{
+	float: left;
+	display: inline-block;
+	width: 4.1791em;
+	height: 4.1745em;
+}
+.maintop ul li label.icon1{
+	background: url(../images/acce_list_icon1.png) no-repeat 1.3646em 0.2793em;
+	background-size: 70%;
+} 
+.maintop ul li label.icon2{
+	background: url(../images/acce_list_icon2.png) no-repeat 1.3646em 0.2793em;
+	background-size: 70%;
+} 
+.maintop ul li label.icon3{
+	background: url(../images/acce_list_icon3.png) no-repeat 1.3646em 0.2793em;
+	background-size: 70%;
+} 
+.maintop ul li label.icon4{
+	background: url(../images/acce_list_icon4.png) no-repeat 1.3646em 0.2793em;
+	background-size: 70%;
+} 
+.maintop ul li label.icon5{
+	background: url(../images/acce_list_icon5.png) no-repeat 1.3646em 0.2793em;
+	background-size: 70%;
+} 
+.maintop ul li input.anli_inp{
+	float: left;
+	display: inline-block;
+	font-size: 1.2793em;
+	color: #c8c8c8;
+	line-height: 3.1751em;
+	text-indent: 0.5em;
+	width:17.8805em;
+}
+.maintop input.submit{
+	display: block;
+	margin: 1.2793em auto 1.7057em;
+	font-size: 1.2793em;
+	color: #fff;
+	background: #ffc509;
+	width:65%;
+	height: 2.2415em;
+	line-height: 2.2415em;
+	text-align: center;
+	border-radius: 0.2em;
+}
+/*院校首页*/
+.headerWrapa{
+	background: #fff;
+}
+.headerWrapa1{
+	width: 94%;
+	padding: 0 3%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	box-shadow: 0 3px 3px #d7d7d7;
+}
+.logoa{
+	width:45%;
+	padding-top:0.232em;
+	padding-bottom:0.2464em;
+	position: absolute;
+	left: 3%;
+	top: 0;
+}
+.logoa img{
+	display: block;
+	width: 100%;
+} 
+.headerR a.topMnua{
+	background: url(../images/ico_btn2_hov1.png) no-repeat right center;
+	background-size: 100%;
+}
+.navWrapa{
+	background: #fff;
+}
+.bannerjian{
+	width: 100%;
+	height: auto;
+}
+.bannerjian img{
+	display: block;
+	width: 100%;
+}
+.navWrapa ul li{
+	float: left;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+.navWrapa ul li i {
+    display: inline-block;
+    width: 65%;
+    height: auto;
+}
+.navWrapa ul li h2{
+	width: 100%;
+	margin-top: 0.64em;
+	color: #3c3c3c;
+	font-size: 1.02em;
+	font-weight: normal;
+}
+.headlinesa{
+	width: 100%;
+	padding:1.36460em 0 1.36460em 0;
+	background: #fff;
+	border-top: 1px solid #EAEAEA;
+}
+.headlinesa .headlinesLa{
+	width:3.4115em;
+	height:3.02771em;
+	padding-top:0em;
+	padding-right: 0.8528em;
+	margin-left:2%;
+	border-right: 1px solid #EAEAEA;
+}
+.txtScroll-topa{
+	width: 78%;
+	margin:0 auto;  
+	height: auto; 
+	overflow:hidden; 
+	position:relative;
+	padding:0; 
+}
+.txtScroll-topa .bd{ 
+	height: auto;	
+}
+.txtScroll-topa .infoList li{
+	zoom:1;
+	font-size: 1.1940em;
+	color: #3c3c3c;
+	line-height: 1.3em;
+}
+.txtScroll-topa .infoList li img{
+	position: relative;
+	top: 0.4em;
+	margin-right: 0.25em;
+	width: 2.2%;
+}
+.abroadBom .bom_wz{
+	width: 96%;
+	margin: 1.27931em auto;
+	font-size: 1.1940em;
+	color: #646464;
+	line-height: 1.5em;
+}
+.abroadBom .bom_wz a{
+	color: #137bb6;
+}
+#tabter {
+	width: 100%;
+}
+
+#tabter .tab_menuter {
+	width: 100%;
+	z-index: 1;
+	margin-top: 1em;
+}
+
+#tabter .tab_menuter li {
+	float: left;
+	width: 16%;
+	height: auto;
+	text-align: center;
+	margin: 0.5em 2% 0;
+}
+#tabter .tab_menuter li img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+#tabter .tab_menuter li h2{
+	width: 100%;
+	font-size: 1.1956em;
+	color: #3c3c3c;
+	text-align: center;
+	padding: 0.5128em 0;
+}
+
+#tabter .tab_boxter {
+	width: 100%;
+	height: auto;
+	clear: both;
+	margin-top: 1em;
+}
+
+#tabter .tab_menuter .selectedter h2 {
+	color: #e50000;
+}
+
+#tabter .tab_menuter .selectedter img{
+	box-shadow: 0 0 10px #bce7fe;
+}
+
+#tabter .hideter {
+	display: none;
+}
+
+#tabter .tab_boxter > div {
+	width: 94%;
+	height: auto;
+	background: #f5f5f5;
+	padding: 0.8em 3% 0;
+}
+
+
+/*英国留学优势*/
+.overseas_study{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-top: 1px solid #EAEAEA;
+	background: #fff;
+	border-bottom: 1px solid #EAEAEA;
+}
+.overseas_study p{
+	width:88%;
+	margin: 1.0646em auto 0;
+	font-size: 1.02em;
+	color: #646464;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+.overseas_study p em{
+	color: #e50000;
+}
+.overseas_study p a{
+	color: #137bb6;
+}
+.overseas_study .study_con{
+	width:88%;
+	margin: 0.7646em auto 0;
+	height: auto;
+	overflow: hidden;
+}
+.overseas_study .study_con ul li{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	line-height: 1.5em;
+	font-size: 1.02em;
+	color: #646464;
+}
+.overseas_study p em.em{
+	display: block;
+}
+.overseas_study p i{
+	display: block;
+	width:26.1450em;
+	height: auto;
+	color: #646464;
+	font-size: 1em;
+	font-style: normal;
+}
+.overseas_study p .ljdeta{
+	float: left;
+	display: inline-block;
+	width:42%;
+	height: 2.0203em;
+	font-size:1.27931em;
+	color: #ff7a00;
+	border:1px solid #ff7a00;
+	border-radius: 0.2em;
+	line-height: 2.0203em;
+	text-align: center;
+	background: #fff;
+}
+.overseas_study p .nowrx{
+	float: left;
+	margin-left: 0.46em;
+	display: inline-block;
+	width:55%;
+	height: 2.0703em;
+	font-size:1.27931em;
+	color: #fff;
+	border-radius: 0.2em;
+	line-height: 2.0703em;
+	text-align: center;
+	background: #ff7a00;
+}
+.overseas_study p.last{
+	padding-bottom: 1.7058em;
+}
+.general_rules{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.chapter_list{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.chapter_list li{
+	width: 96%;
+	padding:1.70575em 2%;
+	border-bottom: 1px solid #EAEAEA;
+	height: auto;
+	overflow: hidden;
+}
+.chapter_list li .left{
+	float: left;
+	width: 16.7%;
+}
+.chapter_list li .left img{
+	display: block;
+	width: 100%;
+}
+.chapter_list li .mid{
+	float: right;
+	width: 80%;
+}
+.chapter_list li .mid h2{
+	font-size:1.3646em;
+	color: #2a2a2a;
+	margin-bottom: 0.7646em;
+}
+.chapter_list li .mid .mid_l{
+	float: left;
+}
+.chapter_list li .mid .mid_l p{
+	font-size: 1.02em;
+	color: #646464;
+	line-height: 1.3em;
+}
+.chapter_list li .mid .mid_l p label{
+	color: #ff9b48;
+}
+.chapter_list li .mid .mid_r {
+	float: right;
+	margin-right: 0;
+}
+.chapter_list li .mid .mid_r  a{
+	display: block;
+	width:5.5437em;
+	height: 1.2351em;
+	text-align: center;
+	line-height: 1.2351em;
+	font-size: 1.10874em;
+	border-radius: 0.2em;
+}
+.chapter_list li .mid .mid_r  a.ckjz{
+	color: #ff8b20;
+	border: 1px solid #ff8b20;
+	margin-bottom:0.7675em;
+}
+.chapter_list li .mid .mid_r  a.rxsq{
+	color: #2c9cdb;
+	border: 1px solid #2c9cdb;
+}
+.general_rules .showMore {
+	clear: both;
+	padding: 15px;
+	width: 94%;
+	margin: 1em auto 0;
+}
+.general_rules .showMore span {
+	display: block;
+	line-height: 2.4em;
+	font-size: 1.282em;
+	color: #6d6d6d;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.abroad .application{
+	background: #f5f5f5;
+	padding-top: 0.8528em;
+}
+.abroad .application ul{
+	width: 96%;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+}
+.abroad .application ul li{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 1.0256em 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.abroad .application ul li .tabUlL{
+	width: 27.5%;
+	height: 2.5641em;
+	border-bottom-right-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	position: relative;
+	text-indent:0.78em;
+}
+.abroad .application ul li .tabUlL em{
+	position: absolute;
+	right: -0.47em;
+	top: 50%;
+	margin-top: -0.2991em;
+	width: 0.47em;
+	height: 0.5982em;
+}
+.abroad .application ul li .tabUlL em img{
+	display: block;
+	width: 100%;
+}
+.abroad .application ul li .tabUlL p{
+	width: 94%;
+	padding: 0 2% 0 4%;
+	font-size: 1.0256em;
+	color: #fff;
+	line-height: 2.4em;
+}
+.abroad .application ul li .tabUlL p img{
+	width: 22%;
+	position: relative;
+	top: 0.45em;
+	margin-right: 0.25em;
+}
+.abroad .application ul li .ico1{
+	background: #37d588;
+}
+.abroad .application ul li .ico2{
+	background: #7ed537;
+}
+.abroad .application ul li .ico3{
+	background: #d5a737;
+}
+.abroad .application ul li .ico4{
+	background: #d53737;
+}
+.abroad .application ul li .tabUlR{
+	width: 69%;
+	height: auto;
+}
+.abroad .application ul li .tabUlR p{
+	width: 95%;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height:2.4em;
+}
+.onLine p.last{
+	display: block;
+	overflow: hidden;
+	width:96%;
+	padding:1.2793em 2%;
+}
+.onLine p .zxzxls{
+	float: left;
+	display: inline-block;
+	width:42%;
+	height: 2.0203em;
+	font-size:1.27931em;
+	color: #ff7a00;
+	border:1px solid #ff7a00;
+	border-radius: 0.2em;
+	line-height: 2.0203em;
+	text-align: center;
+	background: #fff;
+}
+.onLine p .zslxfa{
+	float: left;
+	margin-left: 0.46em;
+	display: inline-block;
+	width:55%;
+	height: 2.0703em;
+	font-size:1.27931em;
+	color: #fff;
+	border-radius: 0.2em;
+	line-height: 2.0703em;
+	text-align: center;
+	background: #ff7a00;
+}
+.interlocution .tabA {
+	width:100%;
+}
+
+.interlocution .tabA .tab_menuA{
+	width: 100%;
+	z-index: 1;
+}
+.interlocution .tabA .tab_menuA li{
+	float: left;
+	width: 50%;
+	height: 3em;
+	text-align: center;
+	font-size: 1.282em;
+	color: #828282;
+	line-height: 3em;
+	border-bottom: 1px solid #d0d0d0;
+}
+.interlocution .tabA .tab_menuA li.icona{
+	background: url(../images/icon18.png) no-repeat 1.8em center;
+	background-size: 10%;
+}
+.interlocution .tabA .tab_menuA li.iconb{
+	background: url(../images/icon19.png) no-repeat 1.8em center;
+	background-size: 10%;
+}
+.interlocution .tabA .tab_menuA li.icona.selectedA{
+	background: url(../images/icon18_h.png) no-repeat 1.8em center;
+	background-size: 10%;
+	color: #fe3c24;
+	border-bottom: 2px solid #fe3c24;
+	height: 2.9665em;
+}
+.interlocution .tabA .tab_menuA li.iconb.selectedA{
+	background: url(../images/icon19_h.png) no-repeat 1.8em center;
+	background-size: 10%;
+	color: #fe3c24;
+	border-bottom: 2px solid #fe3c24;
+	height: 2.9665em;
+}
+.tab_box_int .hide{
+	display: none;
+}
+.interl_con{
+	width: 100%;
+	height: auto;
+}
+.interl_con1{
+	width: 94%;
+	height: auto;
+	background: #f5f5f5;
+	padding: 0.8em 3% 0;
+}
+.interl_con ul{
+	width: 96%;
+	height: auto;
+	margin: 1.111em 2% 0;
+	padding-bottom: 1.282em;
+}
+.interl_con ul li{
+	width: 100%;
+	float: left;
+}
+.interl_con ul li .proMliL{
+	width: 40.28%;
+	height: auto;
+	position: relative;
+}
+.interl_con ul li .proMliL img{
+	display: block;
+	width: 100%;
+}
+.interl_con ul li .proMliR{
+	width: 57.5%;
+	height: auto;
+}
+.interl_con ul li .proMliR .proMliRT{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: 0.7em;
+	overflow: hidden;
+}
+.interl_con ul li .proMliR .proMliRT img{
+	display: block;
+	width: 100%;
+}
+.interl_con ul li .proMliR .proMliRT p{
+	top: 1.4em;
+	width: 96%;
+	text-align: right;
+}
+.interl_con ul li .proMliR .proMliRB{
+	width: 100%;
+	height: auto;
+}
+.interl_con ul li .proMliR .proMliRB .proRBL{
+	width: 47.585%;
+	height: auto;
+	position: relative;
+}
+.interl_con ul li .proMliR .proMliRB .proRBL img{
+	display: block;
+	width: 100%;
+}
+.interl_con ul li .proMliR .proMliRB .proRBL p{
+	top: 1.2em;
+	line-height: 1.2em;
+	font-size: 1.282em;
+}
+.interl_con ul li .proMliR .proMliRB .proRBR p{
+	width: 92%;
+	text-align: right;
+}
+.interl_con ul li .proUl{
+	width: 48.75%;
+	position: relative;
+	height: auto;
+	margin-top: 0.7em;
+}
+.interl_con ul li .proUl img{
+	display: block;
+	width: 100%;
+}
+/*院校库*/
+.library{
+	width:100%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+}
+.library_title{
+	width: 100%;
+	height: 3.4115em;
+	background: #fe4d37;
+	margin: 0 auto;
+}
+.library_title .choiceW{
+    width: 100%;
+    margin:0px auto;
+    position: relative;
+}
+.library_title .choice{
+	float:left;
+	margin-right:0;
+	width: 16%;
+	margin: 0 4.5%;
+}
+.library_title .select dt{
+	height: 2.4115em;
+	display:inline-block;
+	background:url(../images/xiala_icon.png) no-repeat 100% center;
+	background-size: 15%;
+	line-height: 2.5em;
+	font-size: 1.3646em;
+	text-align: left;
+	padding-right:10%;
+	width:90%;
+	color: #ffffff;
+	/*white-space:nowrap;*/
+	text-overflow:ellipsis;
+	overflow:hidden;
+	z-index:99;
+}
+.library_title .select dt.dt{
+	background:url(../images/xiala_icon.png) no-repeat 85% center;
+	background-size: 15%;
+}
+.library_title .select dd{
+	position:absolute;
+	left:0;
+	top: 2.8em;
+	border:1px solid #fe4d37;
+	background:rgba(254,77,55,0.8);
+	display:none;
+	width: 100%;
+	font-size: 14px;
+	z-index: 100;
+}
+.library_title .select dd ul{
+	width:96%;
+	margin: 0 auto;
+	padding: 0.5em 0 1em;
+	overflow: hidden;
+}
+.library_title .select dd ul li{
+	float: left;
+	width: 31%;
+	height: auto;
+	margin-right: 3%;
+}
+.library_title .select dd ul li:nth-child(3n){
+	margin-right: 0;
+}
+
+
+.library_title .select dd ul li a{
+	line-height:1.2em;
+	font-size: 1.1087em;
+	display:block;
+	float: left;
+    color: #fff;
+    width: 99%;
+    border:1px solid #fff;
+    margin: 0.5em 0.7% 0 0;
+    text-align: center;
+    line-height:1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.library .library_con{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.library .library_con ul li{
+	width: 96%;
+	padding:1.532em  2%;
+	border-bottom: 1px solid #EAEAEA;
+	overflow: hidden;
+}
+.library .library_con ul li .library_l{
+	float: left;
+	width:14%;
+}
+.library .library_con ul li .library_l img{
+	display: block;
+	width: 100%;
+}
+.library .library_con ul li .library_m{
+	float: left;
+	margin-left: 0.7675em;
+	width: 80%;
+	height: auto;
+}
+.library .library_con ul li .library_m .top{
+	display: block;
+	width: 100%;
+	font-size:1.3646em;
+	color: #2a2a2a;
+	margin-bottom: 0.78em;
+}
+.library .library_con ul li .library_m .top span{
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+}
+.library .library_con ul li .library_m .top span a{
+	font-size:0.86em;
+	display: inline-block;
+	width:5.5437em;
+	height: 1.2351em;
+	text-align: center;
+	line-height: 1.2351em;
+	border-radius: 0.2em;
+}
+.library .library_con ul li .library_m  a.zxzx{
+	color: #ff8b20;
+	border: 1px solid #ff8b20;
+}
+.library .library_con ul li .library_m  a.ckyx{
+	color: #2c9cdb;
+	border: 1px solid #2c9cdb;
+	margin-left: 0.45em;
+}
+.library .library_con ul li .library_m p{
+	display: block;
+	width: 100%;
+	font-size: 1.02em;
+	color: #c1c1c1;
+	line-height: 1.5em;
+}
+.library .page,
+.col_list .page{
+	margin:1.7057em auto;
+	width: 100%;
+	text-align: center;
+}
+.library .page a,
+.col_list .page a{
+	display: inline-block;
+	padding: 0.3em 0.45em;
+	border: 1px solid #EAEAEA;
+	font-size: 1.02em;
+	color: #c1c1c1;
+}
+.library .page a:hover,
+.library .page a.cur,
+.col_list .page a:hover,
+.col_list .page a.cur{
+	background: #fe4d37;
+	color: #fff;
+	border: 1px solid #fe4d37;
+}
+/*top*/
+.collTop{
+	width: 100%;
+	height: auto;
+	background: #1e1e1e;
+}
+.collTop h2{
+	float: left;
+	width: 50%;
+	font-size: 1.538em;
+	color: #fff;
+	height: 1.8em;
+	line-height: 1.7em;
+	margin-left: 3%;
+}
+.collTop a{
+	float: right;
+	width: 1.4102em;
+	display: inline-block;
+	margin-right: 3%;
+	margin-top: 0.55em;
+}
+.collTop a img{
+	display: block;
+	width: 100%;
+}
+
+
+/*大学排名*/
+.divBox .abroad #tabc.univertab{
+	margin-top: 0;
+	padding-top: 0;
+}
+.abroad .univertab .tab_menuc{
+	background: #f5f5f5;
+	width:100%;
+	margin: 0 auto;
+	padding: 1.282em 0;
+	border: none;
+	border-radius:0;
+	overflow: hidden;
+}
+.abroad .univertab .tab_menuc li {
+	width: 29%;
+	margin: 0 2%;
+	border-radius: 3px;
+	color: #fff;
+}
+.abroad .tabb .tab_menuc li:last-child{
+	width: 30%;
+}
+.abroad .univertab .tab_menuc li.uniLi{
+	background: #ff9934;
+}
+.abroad .univertab .tab_menuc li.uniLi1{
+	background: #fe645a;
+}
+.abroad .univertab .tab_menuc li.uniLi2{
+	background: #3399fe;
+}
+.abroad .univertab .tab_menuc .selectedc{
+	background: none;
+}
+
+.abroad .univertab .abroadTitle{
+	margin-top: 0;
+}
+.abroad .univertab .tab_boxc .showMore{
+	clear: both;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	border-top: none;
+	
+}
+.abroad .univertab .tab_boxc .showMore .showUn{
+	padding: 1em;
+}
+.abroad .univertab .tab_boxc .showMore span {
+	display: block;
+	line-height: 2.4em;
+	font-size: 1.282em;
+	color: #6d6d6d;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/*亚洲国家*/
+.abroad .asia{
+	width: 94%;
+	height: auto;
+	padding: 0 3%;
+	background: #fff;
+}
+.abroad .asia p{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #eaeaea;
+	line-height: 3.6em;
+	float: left;
+}
+.abroad .asia p:last-child{
+	border-bottom: none;
+}
+.abroad .asia p a{
+	display: inline-block;
+	margin-right: 1.15em;
+	font-size: 1.282em;
+	color: #646464;
+	float: left;
+}
+.abroad .asia1 p a{
+	margin-right: 2.1em;
+}
+.abroad .asia p a:last-child{
+	margin-right: 0;
+}
+.plan1{
+	margin-top: 1.282em;
+}
+/*栏目页*/
+.headerCol{
+	background: #fd6755;
+}
+.headerCol .headerR a.telBtn {
+    background: url(../images/ico_btn37.png) no-repeat;
+    background-size: 100%;
+}
+.headerCol .headerR a.topMnu {
+    background: url(../images/ico_btn38.png) no-repeat;
+    background-size: 100%;
+}
+/*tab*/
+.abroad .col_tab > div{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	background: #fff;
+}
+
+.abroad .swiper-slide p{
+	width: 96%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 2%;
+	font-size: 1.1965em;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	height: 2.4285em;
+	line-height: 2.4285em;
+}
+.abroad .swiper-pagination{
+	text-align: right;
+	bottom: 1em;
+	left: auto;
+	right: 0;
+}
+.abroad .col_tab .col_list{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 1.282em;
+}
+.abroad .col_tab .col_list .colListT{
+	width: 100%;
+	border-bottom: 1px solid #eaeaea;
+	padding: 1.7094em 0 1.282em;
+}
+.abroad .col_tab .col_list .colLImg{
+	width: 33.4%;
+	height: auto;
+}
+.abroad .col_tab .col_list .colLImg img{
+	display: block;
+	width: 100%;
+}
+.abroad .col_tab .col_list .colLText{
+	width: 63%;
+	height: auto;
+}
+.abroad .col_tab .col_list .colLText h2,
+.abroad .col_tab .col_list ul li h2{
+	width: 100%;
+	height: auto;
+	font-size: 1.3675em;
+	line-height: 1.5em;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.abroad .col_tab .col_list .colLText h2 a,
+.abroad .col_tab .col_list ul li h2 a{
+	color: #323232;
+}
+.abroad .col_tab .col_list .colLText p,
+.abroad .col_tab .col_list ul li p{
+	width: 100%;
+	height: auto;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height: 1.6em;
+	margin-top: 0.5em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.abroad .col_tab .col_list .colLText h3,
+.abroad .col_tab .col_list ul li h3{
+	width: 100%;
+	text-align: right;
+	margin-top: 0.5em;
+}
+.abroad .col_tab .col_list .colLText h3 em,
+.abroad .col_tab .col_list ul li h3 em{
+	display: inline-block;
+	height: 1.333em;
+	padding-left: 2.4786em;
+	font-size: 1.0256em;
+	color: #969696;
+	background: url(../images/eye_icon.png) no-repeat;
+	background-size: 44%;
+	line-height: 1.333em;
+}
+.abroad .col_tab .col_list ul{
+	width: 100%;
+	height: auto;
+}
+.abroad .col_tab .col_list ul li{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #eaeaea;
+	padding: 1.282em 0;
+}
+.col_list .page{
+	margin-bottom: 0;
+	margin-top: 1.282em;
+}
+.abroad .col_tab .conTab{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+}
+.abroad .col_tab .conTab .conTabT{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #eaeaea;
+	padding: 1.538em 0;
+}
+.abroad .col_tab .conTab .conTabT h2{
+	width: 100%;
+	font-size: 1.538em;
+	color: #323232;
+	line-height: 1.723em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.abroad .col_tab .conTab .conTabT h3{
+	width: 100%;
+	font-size: 1.0256em;
+	color: #969696;
+}
+.abroad .col_tab .conTab .conTabT h3 span{
+	display: inline-block;
+	float: left;
+	margin-right: 1em;
+	line-height: 2em;
+	height: 2em;
+}
+.abroad .col_tab .conTab .conTabT h3 em{
+	float: left;
+	padding-left: 1.7094em;
+	background:url(../images/eye_icon.png) 0 center no-repeat;
+	background-size: 33%;
+	line-height: 2em;
+	height: 2em;
+}
+.abroad .col_tab .conTab .conTabT h3 label{
+	float: right;
+	display: inline-block;
+	width: 4.23em;
+	height: 1.8376em;
+	background: url(../images/comment_bg.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	color: #fff;
+	margin-top: 0.15em;
+}
+.abroad .col_tab .conTab .conTabB{
+	width: 100%;
+	height: auto;
+}
+.abroad .col_tab .conTab .conTabB p{
+	font-size: 1.282em;
+	color: #646464;
+	line-height: 2em;
+	margin-top: 1.5em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.abroad .col_tab .consu{
+	margin-top: 0;
+}
+/*专题页*/
+.planP{
+	padding-bottom: 1.282em;
+	background: #fff;
+	margin-top: 1.282em;
+}
+.plan .planLayerPro{
+	width: 94%;
+	padding: 1.282em 3% 0;
+	height: auto;
+	background: #fff;
+	/*display: none;*/
+}
+.plan .planLPM{
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #e4e4e4;
+	border-radius: 5px;
+}
+.plan .planLPM p{
+	background: #f9f9f9;
+	font-size: 1.1965em;
+	color: #464646;
+	line-height: 1.5em;
+	padding: 0.8em 3%;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+/*国际高中留学优势*/
+.plan .planLAdv{
+	width: 94%;
+	height: auto;
+	padding: 0 3%;
+	background: #fff;
+}
+.plan .planLAdv ol{
+	width: 100%;
+	height: auto;
+	padding: 0.4273em 0 0;
+}
+.plan .planLAdv ol li{
+	border: 1px solid #eaeaea;
+	border-left: none;
+	border-radius: 3px;
+	font-size: 1.3675em;
+	color: #646464;
+	height: 2.4375em;
+	line-height: 2.4375em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 0.8547em;
+}
+.plan .planLAdv ol li em{
+	display: inline-block;
+	width: 1.0665em;
+	height: 2.438em;
+	line-height: 2.438em;
+	background: url(../images/ico_btn39.png) no-repeat;
+	background-size: 100%;
+	font-size: 1.0256em;
+	color: #fff;
+	margin-right: 0.3em;
+	text-indent: 0.05em;
+}
+.plan .planLAdv .consu{
+	margin-top: 0;
+}
+
+/*国际学校都学些哪些课程*/
+.abroadPro .proTab .tab_menub{
+	border-bottom: 1px solid #d0d0d0;
+}
+.abroadPro .proTab .tab_menub li{
+	width: auto;
+	text-align: center;
+	border-bottom: none;
+	padding: 0 0.57em;
+	font-size: 1.1111em;
+}
+.abroad .proTab .pro_boxb .proB{
+	padding: 0.8em 3%;
+	border: 1px solid #ebebeb;
+	background: #fff;
+	font-size: 1.0256em;
+	color: #646464;
+	line-height: 1.6em;
+	margin-top: 0.5em;
+}
+.abroad .proTab .pro_boxb .proB dl{
+	float: left;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+.abroad .proTab .pro_boxb .proB dl dt{
+	width: 4%;
+	height: 0.6837em;
+	background: url(../images/ico_btn40.png) no-repeat;
+	background-size:60% ;
+	float: left;
+	margin-top: 0.5em;
+}
+.abroad .proTab .pro_boxb .proB dl dd{
+	width: 96%;
+	float: left;
+}
+.abroad .proTab .pro_boxb .proB dl dd em{
+	color: #1187cb;
+}
+/*怎样选择优秀的国际学校？*/
+.plan .planLayerPro1 {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: none;
+}
+.plan .planLayerPro1 ol{
+	width: 94%;
+	margin: 0 auto;
+	height: auto;
+}
+.plan .planLayerPro1 ol li{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #eaeaea;
+	padding: 1.282em 0 1em;
+}
+.plan .planLayerPro1 ol li span{
+	display: inline-block;
+	padding: 0 0.4em;
+	background: #37d588;
+	font-size: 1.282em;
+	color: #fff;
+	line-height: 2em;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.plan .planLayerPro1 ol li p{
+	width: 96%;
+	margin: 0 auto;
+	font-size: 1.0256em;
+	color: #464646;	
+	line-height: 1.6em;
+	margin-top: 0.5em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.plan .planLayerPro1 h2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.plan .planLayerPro1 h2 input{
+	width: 54%;
+	font-size: 1.282em;
+	color: #ff7a00;
+	border:1px solid #ff7a00;
+	line-height: 2.3em;
+	background: #fff;
+	margin: 1.282em 0;
+}
+
+
+/*top*/
+.topDiv{
+	width: 100%;
+	height:3.24093em;
+	background: #000000;
+	overflow: hidden;
+}
+.topDiv .mxwy{
+	float: left;
+	font-size: 1.02em;
+	line-height: 3.24093em;
+	margin-left: 0.5em;
+	color: #fff;
+}
+.topDiv .topDiv_r{
+	float: right;
+	margin-right:0.5em;
+	
+}
+.topDiv .topDiv_r a{
+	font-size: 1.02em;
+	color: #fff;
+	margin-left: 1em;
+	line-height: 3.24093em;
+}
+.headerWrapA{
+	background: #fff;
+	position: relative;
+	text-align: center;
+}
+.logob{
+	width:3%;
+	position: absolute;
+	left: 3%;
+	top: 0;
+}
+.logob img{
+	display: block;
+	width: 100%;
+}
+.headerR a.topMnub{
+	background:url(../images/ico_btn2_hov2.png) no-repeat right center;
+	background-size: 80%;
+}
+.head_mid{
+	float: left;
+	margin-left:40%;
+	font-size:1.27931em;
+	color: #000;
+	padding-top:0.9032em;
+}
+.maintop ul li select.select{
+	float: left;
+	display: inline-block;
+	font-size: 1.2793em;
+	color: #c8c8c8;
+	line-height: 3.1751em;
+	text-indent: 0.5em;
+	width:17.8805em;
+	background: url(../images/xiala_icon1.png) no-repeat right center;
+	background-size: 7%;
+}
+/*图文列表*/
+.bannerjiana{
+	width: 100%;
+	height:1.2791em;
+	background: #F5F5F5;
+}
+/*北京大学韩国名校留学班*/
+.abroad .abroadTitle .abroadTL.study_class{
+	color: #fe462f;
+}
+.abroad .abroadTitle .abroadTL.study_class em{
+	margin-left: 0em;
+}
+
+.study_class{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.study_class_list{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.study_class_list li{
+	width: 96%;
+	padding:1.70575em 2%;
+	border-bottom: 1px solid #EAEAEA;
+	height: auto;
+	overflow: hidden;
+}
+.study_class_list li a{
+	width: 100%;
+	display: block;
+}
+.study_class_list li .list_top{
+	width: 100%;
+	font-size: 1.4102em;
+	line-height: 1.212em;
+	color: #fe462f;
+	margin-bottom: 1.1940em;
+}
+.study_class_list li .list_mid{
+	width:94.92%;
+	height: auto;
+	border: 1px solid #e4e4e4;
+	background: #f9f9f9;
+	border-radius: 0.2em;
+	padding: 0.6823em 0.7675em;
+}
+.study_class_list li .list_mid .list_mid_l{
+	float: left;
+}
+.study_class_list li .list_mid .list_mid_l p{
+	font-size: 1.02em;
+	color: #646464;
+	line-height:2em;
+}
+.study_class_list li .list_mid .list_mid_r{
+	float: right;
+	margin-right:0;
+	width: 6.2686em;
+	height: 3.8380em;
+}
+.study_class_list li .list_mid .list_mid_r a img{
+	display: block;
+	width: 100%;
+}
+.study_class_list li .list_bot{
+	margin-top: 1.2793em;
+	width: 100%;
+}
+.study_class_list li .list_bot a{
+	display: inline-block;
+	float: right;
+	width:19%;
+	height: 1.2203em;
+	font-size:1.27931em;
+	border-radius: 0.2em;
+	line-height: 1.2203em;
+	text-align: center;
+	background: #fff;
+	margin-left:1.2793em ;
+}
+.study_class_list li .list_bot a.mssq{
+	color: #ff8b20;
+	border:1px solid #ff8b20;
+	background: #fff;
+}
+.study_class_list li .list_bot a.ckjz,
+.study_class_list li .list_bot a.zxjd{
+	color: #2c9cdb;
+	border:1px solid #2c9cdb;
+	background: #fff;
+}
+.study_class .showMore {
+	clear: both;
+	padding: 15px;
+	width: 94%;
+	margin: 1em auto 0;
+}
+.study_class .showMore span {
+	display: block;
+	line-height: 2.4em;
+	font-size: 1.282em;
+	color: #6d6d6d;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/*文字列表*/
+.study_class_list li .list_bot p{
+	font-size: 1.02em;
+	color: #969696;
+}
+.study_class_list li .list_bot p span{
+	margin-left: 2.77185em;
+}
+.study_class_list li .list_bot p span img{
+	display: inline-block;
+	width:5%;
+	margin-right: 0.25em;
+}
+.text_list .page{
+	margin:1.7057em auto;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.text_list .page a{
+	display: inline-block;
+	padding: 0.3em 0.45em;
+	border: 1px solid #EAEAEA;
+	font-size: 1.02em;
+	color: #c1c1c1;
+	margin-bottom: 1.7057em;
+}
+.text_list .page a:hover,
+.text_list .page a.cur{
+	background: #fe4d37;
+	color: #fff;
+	border: 1px solid #FE4D37;
+}
+/*新闻列表页*/
+.news_content{
+	width:96%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 1.282em;
+}
+.news_content .news_content_title{
+	display: block;
+	border-bottom: 1px solid #EAEAEA;
+	padding-bottom: 1.6em;
+}
+.news_content .news_content_title h2{
+	font-size: 1.53518em;
+	color: #323232;
+	padding-top: 1.1321em;
+}
+.news_content .news_content_title p{
+	font-size: 1.02em;
+	color: #969696;
+	margin-top: 1.2793em;
+}
+.news_content .news_content_title p span{
+	margin-left: 1.5em;
+}
+.news_content .news_content_title p span img{
+	width:1.8321em;
+	display:inline-block;
+}
+.news_content .news_content_title p em{
+	float: right;
+	margin-right: 0;
+	display:inline-block;
+	background: url(../images/comment_bg.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 4.2217em;
+	height: 1.8336em;
+	font-size: 0.9381em;
+	color: #fffdfd;
+	line-height: 1.4336em;
+	text-align: center;
+	position: relative;
+	top: -0.3em;
+}
+.news_content_con{
+	display: block;
+	width:100%;
+	margin: 0 auto;
+	padding-top:1.791em;
+}
+.news_content_con p{
+	font-size:1.282em;
+	color: #646464;
+	line-height: 2em;
+	margin-bottom:1.282em;
+	text-align: justify;
+}
+.news_content_con p.last{
+	display: block;
+	overflow: hidden;
+	width:100%;
+	margin-bottom: 1.2793em;
+}
+.news_content_con p.last .ljdeta{
+	float: left;
+	display: inline-block;
+	width:42%;
+	height: 2.0203em;
+	font-size:1.27931em;
+	color: #ff7a00;
+	border:1px solid #ff7a00;
+	border-radius: 0.2em;
+	line-height: 2.0203em;
+	text-align: center;
+	background: #fff;
+	cursor: pointer;
+}
+.news_content_con p.last .nowrx{
+	float: left;
+	margin-left: 0.46em;
+	display: inline-block;
+	width:55%;
+	height: 2.0703em;
+	font-size:1.27931em;
+	color: #fff;
+	border-radius: 0.2em;
+	line-height: 2.0703em;
+	text-align: center;
+	background: #ff7a00;
+	cursor: pointer;
+}
